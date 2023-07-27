@@ -17,4 +17,7 @@ violent_crimes = violent_crimes.rename(columns={'Registros': 'registers',
                                                                     'Cod IBGE': 'ibge_code',
                                                                     'Mês': 'month',
                                                                     'Ano': 'year'})
-
+print(violent_crimes.index)
+print(violent_crimes_12_17.index)
+print(violent_crimes_18_23.index)
+print(violent_crimes.iloc[0])
